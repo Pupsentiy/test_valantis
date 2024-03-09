@@ -2,7 +2,7 @@
 
 ## React + TypeScript + Vite + SCSS
 
-### deploy -> 
+### deploy -> https://polite-malasada-fe9a37.netlify.app/
 
 ### Запуск проекта
 1. npm install;

@@ -19,7 +19,7 @@ export const fetchProductsFilter = async (
   }
   const requestBody = {
     action: "filter",
-    params: { [params.type]: params.value },
+    params: { [params.type]: params.value},
   };
   const config = {
     method: "post",

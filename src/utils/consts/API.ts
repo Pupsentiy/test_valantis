@@ -3,7 +3,7 @@ import { generateAuthString } from "@/utils/helpers";
 export type Headers = Record<string, string>;
 
 export const API = {
-  baseUrl: "https://api.valantis.store:41000/",
+  baseUrl: "http://api.valantis.store:40000/",
 };
 
 export const headers: Headers = {

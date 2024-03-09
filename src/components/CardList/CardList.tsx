@@ -1,6 +1,6 @@
 import { Product } from "@/api/fetchProducts.ts";
 import { Card } from "@/components/Card/Card.tsx";
-import { cls } from "@/utils/helpers";
+import {cls, leaveUniqObj} from "@/utils/helpers";
 import { memo } from "react";
 import styles from "./CardList.module.scss";
 
@@ -13,7 +13,7 @@ export const CardList = memo(({ className, list }: ListProps) => {
   return (
     <div className={cls([styles.CardList, className])}>
       {Boolean(list) &&
-        list.map((product) => <Card product={product} key={product.id} />)}
+          leaveUniqObj(list).map((product) => <Card product={product} key={product.id} />)}
     </div>
   );
 });
