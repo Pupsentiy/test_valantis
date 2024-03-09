@@ -1,0 +1,10 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+
+  .message {
+	text-align: center;
+	color: #000;
+	margin-top: 50px;
+  }
+}

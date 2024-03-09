@@ -1,0 +1,13 @@
+.Pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 20px;
+
+  .buttonPrev {
+	&:disabled {
+	  pointer-events: none;
+	}
+  }
+}
+
